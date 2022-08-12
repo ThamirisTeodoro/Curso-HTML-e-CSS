@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.nav-main{
+    background-color:rgb(75, 72, 72);
+    color: white;
+    padding: 10px;
+    position: sticky;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    top: 0;
+}
+
+.container{
+    background-color:rgb(75, 72, 72) ;
+    color: white;
+    padding: 50px;
+    width: 80%;
+    margin: auto;
+    border: 20px solid blue;
+}
+.container h1{
+    text-align: center;
+}
+.container h2{
+    text-align: center;
+}
+aside h2{
+    text-align: center;
+
+}
+aside ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+
+}
+aside li a{
+    text-decoration: none;
+}
+
+aside li  :hover{
+    color: rgb(40, 6, 233);
+    cursor: pointer;
+}
+
+aside li :visited{
+    color: rgb(68, 199, 92);
+}
+
+.box{
+    width: 80%;
+    margin: auto;
+}
+.main-form{
+    padding: 20px;
+}
+.group-form{
+    width: 100%;
+    margin: 20px;
+    
+}.group-form input{
+    display: block;
+    width: 100%;
+    padding: 15px;
+}
+.button{
+    background-color: rgb(75, 72, 72);
+    color: white;
+    padding: 10px;
+}
+.box-relative{
+    position: relative;
+    border: 3px solid black; 
+    width: 80%;
+    margin: auto;
+    height: 300px;
+}
+
+
+.box-relative .box-absolute{
+    position: absolute;
+    bottom: 40%;
+    left: 42%;
+}
+
+
+footer{
+    background-color: rgb(75, 72, 72);
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+}
+footer p{
+    text-align: center;
+
+}
